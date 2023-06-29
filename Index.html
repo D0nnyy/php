@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donny php</title>
+</head>
+<body>
+    <div>
+    <h2>User Registration</h2>
+    <br></div>
+    <form action="register.php" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+<div>
+    <h2>User Login</h2>
+    <br></div>
+    <form action="login.php" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+
+<style>
+    body{
+        margin-left: 40rem;
+     padding-top: 10rem;
+    background-color: rgb(169, 191, 254);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    div{
+        align-items: center;
+    }
+</style>
+
+</html>
